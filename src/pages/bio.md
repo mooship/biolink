@@ -1,4 +1,6 @@
-# My Links
+# Timothy Brits
+
+## My Links
 
 - [<i class="fas fa-hand-holding-heart"></i><span>Teddy Bear Foundation</span>](https://teddybearfoundation.org.za/get-involved/)
 - [<i class="fas fa-dog"></i><span>Animal Anti-Cruelty League (AACL)</span>](https://www.aacl.co.za//donate/)
