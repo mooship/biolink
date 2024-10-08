@@ -11,19 +11,44 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <!-- Character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO meta tags -->
+    <meta name="description" content="Welcome to my digital hub! Find all my important links in one convenient place - social media, portfolio, and more. Your one-stop destination to connect with me across the web.">
+    <meta name="keywords" content="links page, social media links, portfolio, personal website, connect with me">
+    <meta name="author" content="Timothy Brits">
+    
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Timothy Brits - All My Links">
+    <meta property="og:description" content="All my important links in one place. Connect with me across the web!">
+    <meta property="og:url" content="https://timothybrits.com">
+    
+    <!-- Favicon and Apple Touch Icon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    
+    <!-- Color scheme -->
+    <meta name="theme-color" content="#588157">
+    
+    <!-- Stylesheet links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Additional meta tags -->
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content={Astro.generator}>
+    
+    <!-- Web app capability -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>Your Name - All My Links</title>
   </head>
   <body>
     <slot />
