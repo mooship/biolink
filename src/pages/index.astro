@@ -20,13 +20,14 @@ import { Content as BioContent } from './bio.md'
     font-size: 1.2rem;
     text-justify: justify;
     margin: 1rem;
+    transition: color 0.3s ease;
   }
 
   :global(h1),
   :global(h2) {
     text-align: center;
     color: #dad7cd;
-    margin: 1rem;
+    margin: 1.2rem;
   }
 
   :global(ul) {
@@ -57,7 +58,7 @@ import { Content as BioContent } from './bio.md'
 
   :global(a i) {
     margin-right: 15px;
-    font-size: 1.2em;
+    font-size: 1.25em;
     width: 20px;
     text-align: center;
     transition: color 0.3s ease;
@@ -71,7 +72,8 @@ import { Content as BioContent } from './bio.md'
   /* Specific icon hover colors */
   :global(a:hover .fa-linkedin),
   :global(a:hover .fa-github),
-  :global(a:hover .fa-instagram) {
+  :global(a:hover .fa-instagram),
+  :global(a:hover .fa-file) {
     color: #3a322d;
   }
 
