@@ -1,5 +1,5 @@
 {
-  "name": "biolink",
+  "name": "skakelboom",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -26,5 +26,8 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-organize-imports": "^4.1.0",
     "rollup": "^4.21.0"
+  },
+  "engines": {
+    "node": "lts/*"
   }
 }
