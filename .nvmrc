@@ -1,5 +1,3 @@
-{
-  "engines": {
+"engines": {
     "node": "lts/*"
   }
-}
